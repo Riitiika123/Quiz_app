@@ -17,7 +17,7 @@ class CompletedPage extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage(''),
+                image: AssetImage('assets/background.jpg'),
                 fit: BoxFit.cover )
             ),
           ),
@@ -43,7 +43,7 @@ class CompletedPage extends StatelessWidget {
 
                 Text('You have completed the Quiz.',
                 style: TextStyle(
-                  fontSize: screensize.width*0.86,
+                  fontSize: screensize.width*0.06,
                   color: Colors.white70,
                 ),),
 
